@@ -1,0 +1,47 @@
+﻿
+/* ------ Padrao caixa Text */
+
+.styTextBox 
+
+{
+    padding: 0px 0px 0px 1px;
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    font-family: Calibri;
+    font-size: medium;
+    margin 0px 0px 0px 0px;
+    color: #000066;
+    text-align: left;
+    width:100%;
+}
+
+    .styTextBox:disabled {
+        color: #333333;
+        background-color: #FFFFDD;
+    }
+
+    .styTextBox:focus {
+        outline: none;
+        color: #333333;
+    }
+
+/* ------ */
+
+.styTextLabel 
+
+{
+    padding: 1px 3px 1px 7px;
+    border: 1px Solid Silver;
+    font-family: Calibri;
+    font-size: x-small;
+    font-weight: bold;
+    text-align: left;
+    background-color: white;
+    opacity: 1;
+    color: Gray;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+
+}
